@@ -1,36 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Formulario Popup Validation" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-06-10T20:10:28" hostname="PT33BAQ01QA005" time="0.371">
+<testsuite name="Formulario Popup Validation" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-14T19:31:34" hostname="PT33BAQ01QA005" time="36.748">
   <properties/>
-  <testcase name="Diligenciamiento exitoso del formulario Popup Validation," classname="Formulario Popup Validation" time="0.371">
-    <failure message="io.cucumber.junit.UndefinedStepException: The step 'Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot;' and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;Autentico en colorlib con usuario {string} y clave {string}&quot;)&#10;public void autenticoEnColorlibConUsuarioYClave(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;Ingreso a la funcionalidad Forms Validation&quot;)&#10;public void ingresoALaFuncionalidadFormsValidation() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;Diligencio formulario Popup Validation&quot;)&#10;public void diligencioFormularioPopupValidation() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Verifico ingreso exitoso&quot;)&#10;public void verificoIngresoExitoso() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot;' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;Autentico en colorlib con usuario {string} y clave {string}&quot;)
-public void autenticoEnColorlibConUsuarioYClave(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Given(&quot;Ingreso a la funcionalidad Forms Validation&quot;)
-public void ingresoALaFuncionalidadFormsValidation() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;Diligencio formulario Popup Validation&quot;)
-public void diligencioFormularioPopupValidation() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;Verifico ingreso exitoso&quot;)
-public void verificoIngresoExitoso() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-</failure>
-  </testcase>
+  <testcase name="Diligenciamiento exitoso del formulario Popup Validation," classname="Formulario Popup Validation" time="36.748"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/olaris.medina/Desktop/Aprendiendo/Automatización/Automatizacion/src/test/resources/feature/Colorlib/Forms/PopupValidation.feature
-[Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/olaris.medina/Desktop/Aprendiendo/Automatización/Automatizacion/src/test/resources/feature/Colorlib/Forms/PopupValidation.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/olaris.medina/Desktop/Aprendiendo/Automatizacion/Automatizacion/src/test/resources/feature/Colorlib/Forms/PopupValidation.feature
+[Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/olaris.medina/Desktop/Aprendiendo/Automatizacion/Automatizacion/src/test/resources/feature/Colorlib/Forms/PopupValidation.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 [Test worker] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
@@ -39,13 +13,60 @@ public void verificoIngresoExitoso() {
 
 Diligenciamiento exitoso del formulario Popup Validation,(formulario-popup-validation;diligenciamiento-exitoso-del-formulario-popup-validation-)
 --------------------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 102.0.5005.61 (resolved driver for Chrome 102)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\olaris.medina\.cache\selenium\chromedriver\win32\102.0.5005.61\chromedriver.exe
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 53484
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun. 14, 2022 2:31:51 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+jun. 14, 2022 2:31:52 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+jun. 14, 2022 2:31:52 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
 [Test worker] INFO  - 
-  _____   ___   ___   _____     ___   ___   _  _   ___    ___   _  _    ___ 
- |_   _| | __| / __| |_   _|   | _ \ | __| | \| | |   \  |_ _| | \| |  / __|
-   | |   | _|  \__ \   | |     |  _/ | _|  | .` | | |) |  | |  | .` | | (_ |
-   |_|   |___| |___/   |_|     |_|   |___| |_|\_| |___/  |___| |_|\_|  \___|
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
 Diligenciamiento exitoso del formulario Popup Validation,
------------------------------------------------------------------------------
+----------------------------------------------------------------------
+[AsyncHttpClient-1-4] WARN org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+jun. 14, 2022 2:32:10 P. M. org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
 ]]></system-err>
 </testsuite>
