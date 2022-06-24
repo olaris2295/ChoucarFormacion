@@ -11,7 +11,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 @CucumberOptions (
         features = "src/test/resources/feature/Colorlib/Forms/PopupValidation.feature",
         snippets = CAMELCASE,
-        tags = "@CasoExitoso")
+        tags = "@Caso Exitoso")
 
 public class RunnerTags {
 }
